@@ -1,0 +1,26 @@
+Under package.json
+ "homepage": "https://aiman-ansari.github.io/[ropository-name]",
+ 
+   "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  
+  
+  tree format:
+  
+  git init
+  git remote add origin https://github.com/aiman-ansari/[reop-name].git
+  git add .
+  git commit -m "first app"
+  git push origin master
+ 
+ To get url
+   git remote set-url origin https://github.com/aiman-ansari/[repo-name]
+   npm run build
+   npm install gh-pages --save-dev
+   npm run deploy
